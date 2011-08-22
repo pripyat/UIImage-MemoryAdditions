@@ -1,0 +1,1 @@
+UIImage's imageNamed: method is useful, but is extremely resource hungry. This class solves this problem by overriding Apple's function with this custom one which behaves the same way, but releases the data instead of caching it, saving a significant amount of memory.
